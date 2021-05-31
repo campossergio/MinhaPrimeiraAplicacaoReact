@@ -5,6 +5,7 @@
  * 3º chamar a função onClick
  */
 import { useState } from 'react';
+import Button from '../Button';
 
 const Card = () => {
 
