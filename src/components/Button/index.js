@@ -1,11 +1,11 @@
-const Button = () => {
+const Button = ( {children, className, onClick} ) => {
     return (
         <button
             type="button"
-            className="btn btn-success"
-            onClick={Adicionar}
+            className={className}
+            onClick={onClick}
         >
-            Adicionar
+            {children}
         </button>
     )
 }

@@ -25,20 +25,18 @@ const Card = () => {
                 Meu Primeiro Card
             </div>
             <div className="card-body">
-                <button 
-                    type="button" 
+                <Button
                     className="btn btn-success"
                     onClick={Adicionar}
                 >
                     Adicionar
-                </button>
-                <button 
-                    type="button" 
+                </Button>
+                <Button
                     className="btn btn-danger"
                     onClick={Remover}
                 >
                     Remover
-                </button>
+                </Button>
                 <p>{valor}</p>
             </div>
         </div>
